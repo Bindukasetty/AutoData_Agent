@@ -59,7 +59,7 @@ database=data_agent_db
 ## Project structure
 
 ```
-Data_Agent/
+Ola AI Project/
 ├── agents/
 │   ├── data_agent.py       # Router
 │   ├── sql_analyst.py      # SQL workflow
