@@ -55,6 +55,9 @@ user=postgres
 password=your_password
 database=data_agent_db
 ```
+LLM_MODEL_LOW=gpt-5.6-luna
+LLM_MODEL_MEDIUM=gpt-5.6-terra
+LLM_MODEL_HIGH=gpt-5.6-sol
 
 ## Project structure
 
