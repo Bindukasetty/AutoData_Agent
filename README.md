@@ -23,7 +23,7 @@ LLM selection is dynamic: simpler queries route to a lighter/cheaper model, comp
 - Intent-based routing between SQL and ETL workflows, no manual mode-switching
 - Natural-language-to-SQL generation with a safety gate — destructive statements (`INSERT`, `UPDATE`, `DELETE`, `DROP`, `ALTER`) are blocked before execution, and results are capped at 10 rows by default
 - API extraction and Pandas-based transformation, output to CSV, JSON, or Parquet
-- Cost-aware LLM routing — cheaper models for simple queries, Claude for complex reasoning
+- Cost-aware LLM routing — cheaper models for simple queries, high models for complex reasoning
 - Typed state throughout, via Pydantic schemas for each agent
 
 ## Prerequisites
